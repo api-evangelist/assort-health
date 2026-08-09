@@ -12,20 +12,16 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/assort-health.png
 name: Assort Health
-description: >-
-  Assort Health builds an AI voice-agent platform purpose-built for healthcare
-  practices, automating the full patient-access journey across the phone line
-  and back office — 24/7 appointment scheduling and management, intelligent
-  triage and call routing, patient intake and insurance verification, proactive
-  outbound reminders and outreach, referral and fax automation, medication
-  refill management, after-hours medical answering, and payment resolution. The
-  agents are trained on 190M+ patient interactions spanning 23+ medical
-  specialties and integrate with 15+ EHR/PMS platforms (with deep athenahealth
-  support), personalizing each conversation with patient context, language
-  preference, and care history. The company is venture-backed (Series C), with
-  Lightspeed Venture Partners and Menlo Ventures among its investors. This API
-  Evangelist profile was enriched from Assort Health's public web surface; the
-  company publishes no public developer/API program at this time.
+description: Assort Health builds an AI voice-agent platform purpose-built for healthcare practices, automating
+  the full patient-access journey across the phone line and back office — 24/7 appointment scheduling
+  and management, intelligent triage and call routing, patient intake and insurance verification, proactive
+  outbound reminders and outreach, referral and fax automation, medication refill management, after-hours
+  medical answering, and payment resolution. The agents are trained on 190M+ patient interactions spanning
+  23+ medical specialties and integrate with 15+ EHR/PMS platforms (with deep athenahealth support), personalizing
+  each conversation with patient context, language preference, and care history. The company is venture-backed
+  (Series C), with Lightspeed Venture Partners and Menlo Ventures among its investors. This API Evangelist
+  profile was enriched from Assort Health's public web surface; the company publishes no public developer/API
+  program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/assort-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -36,7 +32,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-08-08'
 tags:
 - Company
 - Healthcare
@@ -67,8 +63,14 @@ common:
   url: https://assorthealth.com/privacy
 - type: GitHubOrganization
   url: https://github.com/assort-health
+- type: LinkedIn
+  url: https://www.linkedin.com/company/assorthealth/
+- type: Twitter
+  url: https://x.com/assort_health
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- assorthealth
